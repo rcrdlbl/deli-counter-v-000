@@ -11,4 +11,3 @@ def line
     return announcement
   end
 end
-    
