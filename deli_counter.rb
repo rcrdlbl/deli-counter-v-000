@@ -18,5 +18,9 @@ def take_a_number(list, name)
 end
 
 def now_serving(list)
-  puts "Currently serving #{list.shift}."
+  if list.length == 0
+    puts "There is nobody waiting to be served!"
+  else
+    puts "Currently serving #{list.shift}."
+  end
 end
