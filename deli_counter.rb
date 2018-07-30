@@ -18,5 +18,5 @@ def take_a_number(list, name)
 end
 
 def now_serving(list)
-  puts "Currently serving #{list.shift}"
+  puts "Currently serving #{list.shift}."
 end
