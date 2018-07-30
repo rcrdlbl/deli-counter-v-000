@@ -8,6 +8,6 @@ def line(names)
     names.each.with_index(1) do |name, number|
       announcement << " #{number}. #{name}"
     end
-    return announcement
+    puts announcement
   end
 end
